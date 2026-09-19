@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "gerygerger.ytmusic",
+  "name": "YT Music by Gerygerger",
+  "version": "1.0.0",
+  "author": "gerygerger",
+  "license": "MIT",
+  "description": "The song that's playing, on the bar. Click to pause, scroll to skip, gone when it's quiet.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "YT Music by Gerygerger",
+    "description": "The song that's playing. Click to pause, scroll to skip.",
+    "category": "Media",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}

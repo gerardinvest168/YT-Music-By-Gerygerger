@@ -1,0 +1,7 @@
+# Companion-server token minted through the app's authorization window. It is a
+# bearer credential for the local YTMDesktop API, so never commit a real one.
+ytmdesktop-token
+
+# Editor and OS noise
+*.swp
+.DS_Store
